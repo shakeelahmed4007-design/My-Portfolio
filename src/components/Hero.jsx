@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Linkedin, Github, ArrowRight, Download } from "lucide-react";
 import profilePic from "../assets/Sh.PNG";
-import cvFile from "../assets/CV SHAKEEL.pdf";
 
 const iconMap = {
   linkedin: <Linkedin size={20} />,
@@ -128,7 +127,7 @@ export default function Hero({ content }) {
             </motion.span>
           </motion.a>
           <motion.a
-            href={cvFile}
+            href="/CV_SHAKEEL.pdf"
             download="Shakeel_Ahmed_CV.pdf"
             whileHover={{ scale: 1.06, backgroundColor: "rgba(255,255,255,0.1)" }}
             whileTap={{ scale: 0.96 }}
